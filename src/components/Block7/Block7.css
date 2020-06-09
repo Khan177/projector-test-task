@@ -1,0 +1,25 @@
+.block7{
+	padding:7%;
+	background-color: rgb(207,207,207);
+}
+.block7 .heading-arrows{
+	position: relative;
+}
+.block7 h1{
+	text-align:center;
+}
+.block7 .arrows{
+	position:absolute;
+	top:0%;
+	right:7%;
+	display: flex;
+}
+.block7 .heading-arrows img{
+	cursor:pointer;
+	padding:10px;
+}
+.block7-cards-row{
+	display:flex;
+	justify-content: space-between;
+	margin-top: 5%;
+}

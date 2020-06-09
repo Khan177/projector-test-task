@@ -1,0 +1,16 @@
+.block6card{
+	background-color: rgb(223,223,223);
+	padding:2% 4%;
+	border-radius:20px;
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+}
+.block6card h2{
+	margin:0;
+	margin-bottom:2%;
+}
+.block6card p{
+	color:rgb(127,127,127);
+	margin:0;
+}

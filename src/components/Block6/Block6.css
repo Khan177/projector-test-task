@@ -1,0 +1,13 @@
+.block6{
+	display:flex;
+	padding:2% 7%;
+	background-color: rgb(232,232,232);
+}
+.block6heading{
+	width:25%;
+}
+.block6cards{
+	display:flex;
+	justify-content: space-between;
+	width:75%;
+}

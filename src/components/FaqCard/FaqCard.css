@@ -1,0 +1,61 @@
+.faq-card{
+	padding:3% 0;
+	border-radius:20px;
+	background-color: rgb(232,232,232);
+	width:27%;
+	margin:2% 0;
+	transition: all .4s ease;
+	-webkit-transition: all .4s ease;
+}
+.faq-card-top{
+	display:flex;
+	padding:0% 2%;
+}
+.faq-card-icon{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right:8px;
+}
+.faq-card-icon img{
+	box-shadow: 1px 4px 2px rgba(207, 11, 26, 0.1);
+	border-radius:20px;
+}
+.faq-card h3{
+	margin:0;
+	margin-bottom:2%;
+	font-weight:normal;
+}
+.faq-card p{
+	color:rgb(127,127,127);
+	margin:0;
+}
+.abs-box{
+	position: absolute;
+	background-color: rgb(232,232,232);
+	width:100%;
+	left:0;
+	padding-bottom:5%;
+	border-bottom-left-radius: 20px;
+	border-bottom-right-radius: 20px;
+	opacity:0;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    transition: all 0.5s ease;
+}
+.abs-box p{
+	padding:0;
+	padding-left:5%;
+}
+.blocked{
+	visibility: hidden;
+	position: relative;
+}
+.active{
+	visibility: visible;
+	position: relative;
+}
+.active .abs-box{
+	opacity: 1;
+}
